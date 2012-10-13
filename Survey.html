@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang ="ko">
+<head>
+	<meta charset = "utf-8">
+	<title>Survey</title>
+	<link href="./stylesheets/reset.css" rel="stylesheet" type="text/css">
+	<link href="./stylesheets/Survey.css" rel = "stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href ="#">로그인</a>
+			<a href ="#">회원가입</a>
+		</div>
+		<div id="header">
+			<div id="header_top">
+				<div id="header_left">	
+					<img src="images/mylogo.jpg" alt="My page logo" width=90 height=90>
+				</div>
+				<div id="header_right">	
+					<form action="#">
+						<input type = "text" name="search" id="search">
+						<input type = "submit" value="Search" id="search_button">
+					</form>
+				</div>
+			</div>
+			<div id = "navbar">	
+				<ul>
+					<li><a href = "Home.html">HOME</a></li>
+					<li><a href = "Profile.html">Profile</a></li>
+					<li><a href = "Board.html">Board</a></li>
+					<li><a href = "Survey.html"  class="selected">Survey</a></li>
+				</ul>
+			</div>
+			<div id = "line">	</div>
+		</div>
+		<div id = "content">
+			<div id="main_content">	
+				<div class="section_3" id ="BestBoard">
+					<h1>설문조사</h1>
+					<form action = "#" method ="post">	
+						<table border="1">
+							<caption> 설문조사 </caption>
+							<thead>
+								<tr>
+									<th>질문</th>
+									<th>답변</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>이 페이지가 마음에 드십니까?</th>
+									<th>
+										<input type ="radio" name = "q1" value ="q1">예
+										<input type ="radio" name = "q1" value ="q1">아니오
+									</th>
+									
+								</tr>
+								<tr>
+									<th>이 페이지가 유익 하셨습니까?</th>
+									<th>
+										<input type ="radio" name = "q2" value ="q2">예
+										<input type ="radio" name = "q2" value ="q2">아니오
+									</th>
+								</tr>
+								<tr>
+									<th>이 페이지의 디자인은 괜찮습니까?</th>
+									<th>
+										<input type ="radio" name = "q3" value ="q3">예
+										<input type ="radio" name = "q3" value ="q3">아니오
+									</th>
+								</tr>
+								<tr>
+									<th>다음에 또 들려주실겁니까?</th>
+									<th>
+										<input type ="radio" name = "q4" value ="q4">예
+										<input type ="radio" name = "q4" value ="q4">아니오
+									</th>
+								</tr>
+								<tr>
+									<th>이 페이지를 어떻게 들어오셨습니까?</th>
+									<th>
+										<input type ="radio" name = "q5" value ="q5">링크
+										<input type ="radio" name = "q5" value ="q5">검색
+										<input type ="radio" name = "q5" value ="q5">어쩌다보니
+									</th>
+								</tr>	
+							</tbody>
+						</table>
+						<input type = "submit" value = "제출하기">
+					</form>				
+				</div>
+			</div>
+			<div id="sub_content">	
+				<div class ="section" id="spot_ranking">
+					<h1>접속중인 사람</h1>
+					<div class="list">
+						<ol>
+							<li>
+								<b>나는가수다</b>
+								<span class="spot_type">(서울)</span>
+							</li>
+							<li>
+								<b>차도남</b>
+								<span class="spot_type">(광주)</span>
+							</li>
+							<li>
+								<b>까인남</b>
+								<span class="spot_type">(서울)</span>
+							</li>
+							<li>
+								<b>가을남자</b>
+								<span class="spot_type">(강릉)</span>
+							</li>
+							<li>
+								<b>한승연</b>
+								<span class="spot_type">(서울)</span>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id = "footer">
+			<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적
+				<p>
+					Copyright ⓒ MJUCafe. All rights reserved
+				</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang ="ko">
+<head>
+	<meta charset = "utf-8">
+	<title>Profile</title>
+	<link href="./stylesheets/reset.css" rel="stylesheet" type="text/css">
+	<link href="./stylesheets/Profile.css" rel = "stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href ="#">로그인</a>
+			<a href ="#">회원가입</a>
+		</div>
+		<div id="header">
+			<div id="header_top">
+				<div id="header_left">	
+					<img src="images/mylogo.jpg" alt="My page logo" width=90 height=90>
+				</div>
+				<div id="header_right">	
+					<form action="#">
+						<input type = "text" name="search" id="search">
+						<input type = "submit" value="Search" id="search_button">
+					</form>
+				</div>
+			</div>
+			<div id = "navbar">	
+				<ul>
+					<li><a href = "Home.html">HOME</a></li>
+					<li><a href = "Profile.html"  class="selected">Profile</a></li>
+					<li><a href = "Board.html">Board</a></li>
+					<li><a href = "Survey.html" >Survey</a></li>
+				</ul>
+			</div>
+			<div id = "line">	</div>
+		</div>
+		<div id = "content">
+			<div id="main_content">	
+				<div class="section_3" id ="Profile">
+				<h1>Profile</h1>
+					<div id="left">
+						<img src = "images/myimg.jpg" width=200 height=250 alt="myimg">
+					</div>
+						<ul>
+							<li> 이름 <a href = "Home.html">조성우</a></li>
+							<li> 학교 <a href = "http://www.mju.ac.kr">명지대학교</a></li>
+							<li> 학과 <a href = "http://cs.mju.ac.kr">컴퓨터공학과</a></li>
+							<li> 학번 60082478</li>
+							<li> 나이 : 24세</li>
+							<li> 생년월일 : 1989년 7월 2일 </li>
+							<li> 취미 : 게임, 등산</li>
+							<li> 성격 : 무뚝뚝한 편</li>
+							<li> 현재 거주지 : A+ 원룸</li>
+							<li>
+								더 궁금한 사항 e-mail 보내기
+								<form action = "#" method="post">
+									<textarea cols = "20" rows = "5" name = "Question"></textarea>
+									<input type ="submit" name = "submit" value="보내기"/>
+								</form>
+							</li>
+						</ul>
+				</div>
+			</div>
+			<div id="sub_content">	
+				<div class ="section" id="spot_ranking">
+					<h1>접속중인 사람</h1>
+					<div class="list">
+						<ol>
+							<li>
+								<b>나는가수다</b>
+								<span class="spot_type">(서울)</span>
+							</li>
+							<li>
+								<b>차도남</b>
+								<span class="spot_type">(광주)</span>
+							</li>
+							<li>
+								<b>까인남</b>
+								<span class="spot_type">(서울)</span>
+							</li>
+							<li>
+								<b>가을남자</b>
+								<span class="spot_type">(강릉)</span>
+							</li>
+							<li>
+								<b>한승연</b>
+								<span class="spot_type">(서울)</span>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id = "footer">
+			<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적
+				<p>
+					Copyright ⓒ MJUCafe. All rights reserved
+				</p>
+		</div>
+	</div>
+</body>
+</html>

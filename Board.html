@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang ="ko">
+<head>
+	<meta charset = "utf-8">
+	<title>Board</title>
+	<link href="./stylesheets/reset.css" rel="stylesheet" type="text/css">
+	<link href="./stylesheets/Board.css" rel = "stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href ="#">로그인</a>
+			<a href ="#">회원가입</a>
+		</div>
+		<div id="header">
+			<div id="header_top">
+				<div id="header_left">	
+					<img src="images/mylogo.jpg" alt="My page logo" width=90 height=90>
+				</div>
+				<div id="header_right">	
+					<form action="#">
+						<input type = "text" name="search" id="search">
+						<input type = "submit" value="Search" id="search_button">
+					</form>
+				</div>
+			</div>
+			<div id = "navbar">	
+				<ul>
+					<li><a href = "Home.html">HOME</a></li>
+					<li><a href = "Profile.html">Profile</a></li>
+					<li><a href = "Board.html" class="selected">Board</a></li>
+					<li><a href = "Survey.html">Survey</a></li>
+				</ul>
+			</div>
+			<div id = "line">	</div>
+		</div>
+		<div id = "content">
+			<div id="main_content">	
+				<div class="section_3" id ="BestBoard">
+					<div id="board">
+						<div id="title_bar">
+							<div class="row">
+								<div class="number">번호</div>
+								<div class="title">제목</div>
+								<div class="regid">작성자</div>
+								<div class="date">날짜</div>
+							</div>
+						</div>
+
+						<div id="content1"> 
+							<div class="row">
+								<div class="number">10</div>
+								<div class="title">한밤의 노래</div>
+								<div class="regid">나는가수다</div>
+								<div class="date">2012-08-25</div>
+							</div>
+							<div class="row">
+								<div class="number">9</div>
+								<div class="title">작업중</div>
+								<div class="regid">까인남</div>
+								<div class="date">2012-08-24</div>
+							</div>
+							<div class="row">
+								<div class="number">8</div>
+								<div class="title">웁스!!!</div>
+								<div class="regid">차도남</div>
+								<div class="date">2012-08-20</div>
+							</div>
+							<div class="row">
+								<div class="number">7</div>
+								<div class="title">와 홈피개장 축하드려요~</div>
+								<div class="regid">차시남</div>
+								<div class="date">2012-08-19</div>
+							</div>
+							<div class="row">
+								<div class="number">6</div>
+								<div class="title">으컁컁컁</div>
+								<div class="regid">가을남자</div>
+								<div class="date">2012-08-19</div>
+							</div>
+							<div class="row">
+								<div class="number">5</div>
+								<div class="title">슈퍼스타K</div>
+								<div class="regid">정준영</div>
+								<div class="date">2012-08-18</div>
+							</div>
+							<div class="row">
+								<div class="number">4</div>
+								<div class="title">난 카라다!</div>
+								<div class="regid">한승연</div>
+								<div class="date">2012-08-16</div>
+							</div>
+							<div class="row">
+								<div class="number">3</div>
+								<div class="title">무슨 홈피입니까 이게!?</div>
+								<div class="regid">어이없다</div>
+								<div class="date">2012-08-15</div>
+							</div>
+							<div class="row">
+								<div class="number">2</div>
+								<div class="title">안녕하세요~</div>
+								<div class="regid">도시풍경</div>
+								<div class="date">2012-08-14</div>
+							</div>
+							<div class="row">
+								<div class="number">1</div>
+								<div class="title">사랑해요</div>
+								<div class="regid">주연진</div>
+								<div class="date">2012-08-13</div>
+							</div>
+						</div>
+										
+						<div class="pagination">
+							<input type ="button" name = "list" value="목록"/>
+							<a href="#" class="direction"><span>&lsaquo;</span>이전</a>
+							<a href="#">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+							<a href="#">6</a>
+							<a href="#">7</a>
+							<a href="#">8</a>
+							<a href="#">9</a>
+							<a href="#">10</a>
+							<a href="#" class="direction">다음 <span>&rsaquo;</span></a>
+							<input type ="button" name = "write" value="글쓰기"/>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div id="sub_content">	
+				<div class ="section" id="spot_ranking">
+					<h1>접속중인 사람</h1>
+					<div class="list">
+						<ol>
+							<li>
+								<b>나는가수다</b>
+								<span class="spot_type">(서울)</span>
+							</li>
+							<li>
+								<b>차도남</b>
+								<span class="spot_type">(광주)</span>
+							</li>
+							<li>
+								<b>까인남</b>
+								<span class="spot_type">(서울)</span>
+							</li>
+							<li>
+								<b>가을남자</b>
+								<span class="spot_type">(강릉)</span>
+							</li>
+							<li>
+								<b>한승연</b>
+								<span class="spot_type">(서울)</span>
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id = "footer">
+			<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적
+				<p>
+					Copyright ⓒ MJUCafe. All rights reserved
+				</p>
+		</div>
+	</div>
+</body>
+</html>
